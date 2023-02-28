@@ -1,0 +1,7 @@
+<p style="text-align:center;font-size:30px;;color:#C6B408">Design Your Template!</p>
+<form [formGroup]="templateForm">
+  <quill-editor  [styles]="{height: '400px', backgroundColor:'#faf8f8'}" [modules]="quillEditorModules" formControlName="textEditor"></quill-editor>
+</form>
+<div class="example-button-row" style="text-align:center;padding-top:5px;">
+  <button mat-raised-button color="accent" (click)="testEditorContent()">Test</button>
+</div>
