@@ -19,6 +19,13 @@ export class TextEditorFormComponent {
       textEditor: new FormControl(""),
     });
     this.quillEditorModules = {
+      toolbar:[
+        [{'font':[]}],
+        ['bold','italic','underline'],
+        [{'list':'ordered'},{'list':'bullet'}],
+        [{'color':[]},{'background':[]}],
+        ['link','image']
+      ],
       blotFormatter: {}
     }
   }
