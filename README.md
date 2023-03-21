@@ -7,6 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 A rich text editor that can be embedded to Angular applications. PicaMix is built on Angular 14.
 
+# Complete Guide 
+Refer to this medium article for detailed info - https://medium.com/javascript-in-plain-english/how-to-develop-a-rich-text-editor-app-with-angular-14-4c7c91096201
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
